@@ -38,6 +38,12 @@ a {
   background-color: #333;
   color: #fff;
 }
+
+.bg-primary {
+  background-color: #93cb52;
+  color: #fff;
+}
+
 .heading-md {
   font-size: 2rem;
   line-height: 1.1;
@@ -206,4 +212,36 @@ a {
   display: block;
   margin: auto;
   width: 60%;
+}
+
+/* section: contact */
+
+#contact {
+  display: flex;
+}
+#contact div {
+  flex: 1;
+}
+
+.form-group {
+  margin: 0.75rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px #ddd solid;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #0f882d;
 }
