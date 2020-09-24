@@ -14,12 +14,27 @@ a {
   text-decoration: none;
 }
 /* utility classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
 
 .text-primary {
   color: #93cb52;
 }
+.heading-md {
+  font-size: 2rem;
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
+}
 
-heading-lg {
+.heading-lg {
   font-size: 4rem;
   line-height: 1.1;
   margin-bottom: 0.75rem;
@@ -48,6 +63,25 @@ heading-lg {
   color: #fff;
 }
 
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
 /* navber */
 
 #navbar {
@@ -59,6 +93,9 @@ heading-lg {
   color: #fff;
   z-index: 1;
   padding: 1rem;
+}
+#navbar .logo a {
+  color: #fff;
 }
 #navbar ul {
   display: flex;
@@ -102,4 +139,24 @@ heading-lg {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+/* section: what we do  */
+
+#what .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#what .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#what .items .item i {
+  background-color: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
